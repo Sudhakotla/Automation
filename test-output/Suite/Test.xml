@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="welcome-PC" name="flightBooking.TestOrbit" tests="1" failures="0" timestamp="14 Feb 2018 09:54:25 GMT" time="0.062" errors="0">
+  <testcase name="verify" time="0.046" classname="flightBooking.TestOrbit"/>
+</testsuite>
