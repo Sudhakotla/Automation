@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="Firefox"/>
+  <test name="ChromeTest(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="flightBooking.TestOrbit">
+        <methods>
+          <include name="verifyFlightbooking" invocation-numbers="0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+  <test name="FirefoxTest(failed)" parallel="tests" preserve-order="false">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="flightBooking.TestOrbit">
+        <methods>
+          <include name="verifyFlightbooking" invocation-numbers="0"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
