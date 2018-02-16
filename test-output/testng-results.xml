@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="92701" started-at="2018-02-15T16:55:10Z" finished-at="2018-02-15T16:56:43Z">
+  <suite name="Suite" duration-ms="100051" started-at="2018-02-15T23:04:47Z" finished-at="2018-02-15T23:06:27Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="47206" started-at="2018-02-15T16:55:10Z" finished-at="2018-02-15T16:55:57Z">
+    <test name="ChromeTest" duration-ms="100051" started-at="2018-02-15T23:04:47Z" finished-at="2018-02-15T23:06:27Z">
       <class name="flightBooking.TestOrbit">
-        <test-method status="FAIL" signature="verifyFlightbooking(java.lang.String)" name="verifyFlightbooking" duration-ms="47176" started-at="2018-02-15T16:55:10Z" finished-at="2018-02-15T16:55:57Z">
+        <test-method status="PASS" signature="verifyFlightbooking(java.lang.String)" name="verifyFlightbooking" duration-ms="100021" started-at="2018-02-15T23:04:47Z" finished-at="2018-02-15T23:06:27Z">
           <params>
             <param index="0">
               <value>
@@ -15,259 +15,61 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693913604	DeferredSave.extensions.json	DEBUG	Save changes
-1518693913605	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693913605	addons.xpi-utils	DEBUG	Updating add-on states
-1518693913606	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693913609	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693913611	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693913625	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693913639	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693913639	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693913640	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693913645	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693913645	addons.manager	DEBUG	Completed startup sequence
-1518693922333	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922333	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693922333	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693922360	DeferredSave.extensions.json	DEBUG	Starting write
-1518693922376	addons.repository	DEBUG	No addons.json found.
-1518693922377	DeferredSave.addons.json	DEBUG	Save changes
-1518693922381	DeferredSave.addons.json	DEBUG	Starting timer
-1518693922406	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693922418	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922442	DeferredSave.addons.json	DEBUG	Starting write
-1518693922454	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693935995	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693936266	addons.manager	DEBUG	shutdown
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693936267	addons.xpi	DEBUG	shutdown
-1518693936267	addons.xpi-utils	DEBUG	shutdown
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693936270	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693936271	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693936274	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693936280	addons.manager	DEBUG	Async provider shutdown done
-
-Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
-System info: host: 'welcome-PC', ip: '192.168.79.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693913604	DeferredSave.extensions.json	DEBUG	Save changes
-1518693913605	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693913605	addons.xpi-utils	DEBUG	Updating add-on states
-1518693913606	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693913609	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693913611	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693913625	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693913639	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693913639	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693913640	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693913645	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693913645	addons.manager	DEBUG	Completed startup sequence
-1518693922333	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922333	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693922333	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693922360	DeferredSave.extensions.json	DEBUG	Starting write
-1518693922376	addons.repository	DEBUG	No addons.json found.
-1518693922377	DeferredSave.addons.json	DEBUG	Save changes
-1518693922381	DeferredSave.addons.json	DEBUG	Starting timer
-1518693922406	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693922418	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922442	DeferredSave.addons.json	DEBUG	Starting write
-1518693922454	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693935995	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693936266	addons.manager	DEBUG	shutdown
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693936267	addons.xpi	DEBUG	shutdown
-1518693936267	addons.xpi-utils	DEBUG	shutdown
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693936270	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693936271	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693936274	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693936280	addons.manager	DEBUG	Async provider shutdown done
-
-Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
-System info: host: 'welcome-PC', ip: '192.168.79.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:134)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:276)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:221)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:212)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-	at flightBooking.TestOrbit.verifyFlightbooking(TestOrbit.java:44)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
-	at org.testng.TestRunner.privateRun(TestRunner.java:757)
-	at org.testng.TestRunner.run(TestRunner.java:608)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:36)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-	at org.testng.internal.thread.ThreadUtil$CountDownLatchedRunnable.run(ThreadUtil.java:165)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693913604	DeferredSave.extensions.json	DEBUG	Save changes
-1518693913605	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693913605	addons.xpi-utils	DEBUG	Updating add-on states
-1518693913606	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693913609	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693913611	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693913625	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693913625	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693913639	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693913639	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693913639	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693913640	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693913645	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693913645	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693913645	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693913645	addons.manager	DEBUG	Completed startup sequence
-1518693922333	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922333	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693922333	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693922360	DeferredSave.extensions.json	DEBUG	Starting write
-1518693922376	addons.repository	DEBUG	No addons.json found.
-1518693922377	DeferredSave.addons.json	DEBUG	Save changes
-1518693922381	DeferredSave.addons.json	DEBUG	Starting timer
-1518693922406	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693922406	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693922418	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693922442	DeferredSave.addons.json	DEBUG	Starting write
-1518693922454	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693935995	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693936266	addons.manager	DEBUG	shutdown
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693936267	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693936267	addons.xpi	DEBUG	shutdown
-1518693936267	addons.xpi-utils	DEBUG	shutdown
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693936268	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693936270	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693936271	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693936274	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693936280	addons.manager	DEBUG	Async provider shutdown done
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
-	... 27 more
-]]>
-            </full-stacktrace>
-          </exception>
         </test-method>
       </class>
     </test>
-    <test name="FirefoxTest" duration-ms="92701" started-at="2018-02-15T16:55:10Z" finished-at="2018-02-15T16:56:43Z">
+    <test name="FirefoxTest" duration-ms="56146" started-at="2018-02-15T23:04:47Z" finished-at="2018-02-15T23:05:43Z">
       <class name="flightBooking.TestOrbit">
-        <test-method status="FAIL" signature="verifyFlightbooking(java.lang.String)" name="verifyFlightbooking" duration-ms="92671" started-at="2018-02-15T16:55:10Z" finished-at="2018-02-15T16:56:43Z">
+        <test-method status="FAIL" signature="verifyFlightbooking(java.lang.String)" name="verifyFlightbooking" duration-ms="56096" started-at="2018-02-15T23:04:47Z" finished-at="2018-02-15T23:05:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Firefox]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693959476	DeferredSave.extensions.json	DEBUG	Save changes
-1518693959476	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693959476	addons.xpi-utils	DEBUG	Updating add-on states
-1518693959477	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693959479	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693959480	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693959491	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693959503	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693959503	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693959510	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693959511	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693959511	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693959511	addons.manager	DEBUG	Completed startup sequence
-1518693964893	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693964893	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693964893	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693964921	DeferredSave.extensions.json	DEBUG	Starting write
-1518693964939	addons.repository	DEBUG	No addons.json found.
-1518693964940	DeferredSave.addons.json	DEBUG	Save changes
-1518693964945	DeferredSave.addons.json	DEBUG	Starting timer
-1518693964981	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693964995	DeferredSave.addons.json	DEBUG	Starting write
-1518693964997	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693965032	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693974408	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693974778	addons.manager	DEBUG	shutdown
-1518693974778	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693974779	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693974779	addons.xpi	DEBUG	shutdown
-1518693974779	addons.xpi-utils	DEBUG	shutdown
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693974782	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693974783	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693974786	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693974792	addons.manager	DEBUG	Async provider shutdown done
+me":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh-TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_CN"],"name":"å�¡å·´æ–¯åŸºä¿�æŠ¤","description":"ä½¿ç”¨ Kaspersky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
+1518716107849	DeferredSave.extensions.json	DEBUG	Save changes
+1518716107849	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1518716107849	addons.xpi-utils	DEBUG	Updating add-on states
+1518716107850	addons.xpi-utils	DEBUG	Writing add-ons list
+1518716107852	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1518716107853	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1518716107853	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1518716107854	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1518716107855	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1518716107856	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1518716107878	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1518716107878	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1518716107879	addons.manager	DEBUG	Starting provider: GMPProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1518716107885	addons.manager	DEBUG	Starting provider: PluginProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1518716107886	addons.manager	DEBUG	Completed startup sequence
+1518716126613	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1518716128428	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128429	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1518716128429	DeferredSave.extensions.json	DEBUG	Starting timer
+1518716128454	DeferredSave.extensions.json	DEBUG	Starting write
+1518716128507	addons.repository	DEBUG	No addons.json found.
+1518716128509	DeferredSave.addons.json	DEBUG	Save changes
+1518716128511	DeferredSave.addons.json	DEBUG	Starting timer
+1518716128541	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1518716128541	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1518716128542	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1518716128563	DeferredSave.addons.json	DEBUG	Starting write
+1518716128565	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128599	DeferredSave.addons.json	DEBUG	Write succeeded
 
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
 System info: host: 'welcome-PC', ip: '192.168.79.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
@@ -275,53 +77,45 @@ Driver info: driver.version: FirefoxDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693959476	DeferredSave.extensions.json	DEBUG	Save changes
-1518693959476	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693959476	addons.xpi-utils	DEBUG	Updating add-on states
-1518693959477	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693959479	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693959480	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693959491	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693959503	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693959503	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693959510	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693959511	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693959511	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693959511	addons.manager	DEBUG	Completed startup sequence
-1518693964893	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693964893	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693964893	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693964921	DeferredSave.extensions.json	DEBUG	Starting write
-1518693964939	addons.repository	DEBUG	No addons.json found.
-1518693964940	DeferredSave.addons.json	DEBUG	Save changes
-1518693964945	DeferredSave.addons.json	DEBUG	Starting timer
-1518693964981	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693964995	DeferredSave.addons.json	DEBUG	Starting write
-1518693964997	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693965032	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693974408	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693974778	addons.manager	DEBUG	shutdown
-1518693974778	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693974779	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693974779	addons.xpi	DEBUG	shutdown
-1518693974779	addons.xpi-utils	DEBUG	shutdown
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693974782	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693974783	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693974786	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693974792	addons.manager	DEBUG	Async provider shutdown done
+me":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh-TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_CN"],"name":"å�¡å·´æ–¯åŸºä¿�æŠ¤","description":"ä½¿ç”¨ Kaspersky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
+1518716107849	DeferredSave.extensions.json	DEBUG	Save changes
+1518716107849	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1518716107849	addons.xpi-utils	DEBUG	Updating add-on states
+1518716107850	addons.xpi-utils	DEBUG	Writing add-ons list
+1518716107852	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1518716107853	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1518716107853	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1518716107854	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1518716107855	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1518716107856	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1518716107878	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1518716107878	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1518716107879	addons.manager	DEBUG	Starting provider: GMPProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1518716107885	addons.manager	DEBUG	Starting provider: PluginProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1518716107886	addons.manager	DEBUG	Completed startup sequence
+1518716126613	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1518716128428	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128429	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1518716128429	DeferredSave.extensions.json	DEBUG	Starting timer
+1518716128454	DeferredSave.extensions.json	DEBUG	Starting write
+1518716128507	addons.repository	DEBUG	No addons.json found.
+1518716128509	DeferredSave.addons.json	DEBUG	Save changes
+1518716128511	DeferredSave.addons.json	DEBUG	Starting timer
+1518716128541	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1518716128541	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1518716128542	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1518716128563	DeferredSave.addons.json	DEBUG	Starting write
+1518716128565	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128599	DeferredSave.addons.json	DEBUG	Write succeeded
 
 Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
 System info: host: 'welcome-PC', ip: '192.168.79.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
@@ -333,7 +127,7 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:212)
 	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
-	at flightBooking.TestOrbit.verifyFlightbooking(TestOrbit.java:44)
+	at flightBooking.TestOrbit.verifyFlightbooking(TestOrbit.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -355,53 +149,45 @@ Driver info: driver.version: FirefoxDriver
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-persky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
-1518693959476	DeferredSave.extensions.json	DEBUG	Save changes
-1518693959476	addons.xpi	DEBUG	Updating database with changes to installed add-ons
-1518693959476	addons.xpi-utils	DEBUG	Updating add-on states
-1518693959477	addons.xpi-utils	DEBUG	Writing add-ons list
-1518693959479	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
-1518693959480	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.1.14
-1518693959491	addons.manager	DEBUG	Starting provider: <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
-1518693959492	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1518693959503	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1518693959503	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1518693959503	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1518693959504	addons.manager	DEBUG	Starting provider: GMPProvider
-1518693959510	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1518693959511	addons.manager	DEBUG	Starting provider: PluginProvider
-1518693959511	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1518693959511	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1518693959511	addons.manager	DEBUG	Completed startup sequence
-1518693964893	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693964893	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
-1518693964893	DeferredSave.extensions.json	DEBUG	Starting timer
-1518693964921	DeferredSave.extensions.json	DEBUG	Starting write
-1518693964939	addons.repository	DEBUG	No addons.json found.
-1518693964940	DeferredSave.addons.json	DEBUG	Save changes
-1518693964945	DeferredSave.addons.json	DEBUG	Starting timer
-1518693964981	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
-1518693964982	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
-1518693964995	DeferredSave.addons.json	DEBUG	Starting write
-1518693964997	DeferredSave.extensions.json	DEBUG	Write succeeded
-1518693965032	DeferredSave.addons.json	DEBUG	Write succeeded
-1518693974408	addons.xpi	DEBUG	Calling bootstrap method shutdown on loop@mozilla.org version 1.1.14
-1518693974778	addons.manager	DEBUG	shutdown
-1518693974778	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
-1518693974779	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
-1518693974779	addons.xpi	DEBUG	shutdown
-1518693974779	addons.xpi-utils	DEBUG	shutdown
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
-1518693974780	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
-1518693974782	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
-1518693974783	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
-1518693974786	addons.xpi	DEBUG	Notifying XPI shutdown observers
-1518693974792	addons.manager	DEBUG	Async provider shutdown done
+me":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh-TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_CN"],"name":"å�¡å·´æ–¯åŸºä¿�æŠ¤","description":"ä½¿ç”¨ Kaspersky Lab çš„æ‰©å±•åŠŸèƒ½å¯¹æ‚¨çš„äº’è�”ç½‘çš„ä¿�æŠ¤ã€‚","creator":null,"homepageURL":null},{"locales":["zh_HK"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null},{"locales":["zh_TW"],"name":"å�¡å·´æ–¯åŸºé˜²è­·","description":"ä½¿ç”¨ Kaspersky Lab çš„å»¶ä¼¸åŠŸèƒ½å°�æ‚¨çš„ç¶²éš›ç¶²è·¯çš„é˜²è­·ã€‚","creator":null,"homepageURL":null}],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"43.0"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":2,"seen":true}
+1518716107849	DeferredSave.extensions.json	DEBUG	Save changes
+1518716107849	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1518716107849	addons.xpi-utils	DEBUG	Updating add-on states
+1518716107850	addons.xpi-utils	DEBUG	Writing add-ons list
+1518716107852	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1518716107853	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.0
+1518716107853	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1518716107854	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0
+1518716107855	addons.xpi	DEBUG	Registering manifest for C:\Program Files\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1518716107856	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 1.2.6
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1518716107878	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1518716107878	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1518716107878	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1518716107879	addons.manager	DEBUG	Starting provider: GMPProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1518716107885	addons.manager	DEBUG	Starting provider: PluginProvider
+1518716107885	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1518716107885	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1518716107886	addons.manager	DEBUG	Completed startup sequence
+1518716126613	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1518716126613	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1518716128428	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128429	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 17
+1518716128429	DeferredSave.extensions.json	DEBUG	Starting timer
+1518716128454	DeferredSave.extensions.json	DEBUG	Starting write
+1518716128507	addons.repository	DEBUG	No addons.json found.
+1518716128509	DeferredSave.addons.json	DEBUG	Save changes
+1518716128511	DeferredSave.addons.json	DEBUG	Starting timer
+1518716128541	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1518716128541	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1518716128542	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1518716128563	DeferredSave.addons.json	DEBUG	Starting write
+1518716128565	DeferredSave.extensions.json	DEBUG	Write succeeded
+1518716128599	DeferredSave.addons.json	DEBUG	Write succeeded
 
 	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:122)
 	... 27 more

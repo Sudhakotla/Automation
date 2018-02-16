@@ -20,6 +20,7 @@ import utility.Utilitymethods;
 
 public class TestOrbit 
 {
+	//Assignment 2
 	
 	static WebDriver driver;
 			
@@ -27,30 +28,20 @@ public class TestOrbit
     @Parameters("browser")
 	public static void verifyFlightbooking(String browserName)
 	{	
-	  
-		
-		  if(browserName.equalsIgnoreCase("firefox"))
+	  	  if(browserName.equalsIgnoreCase("firefox"))
 			{
 			    driver = new FirefoxDriver();
 
-	    	   // System.setProperty("webdriver.chrome.driver", "E:\\SUDHA\\Selenium\\IEDriverServer.exe");
-
-			  //driver = new InternetExplorerDriver();
-			}
+	   		}
 		     else if(browserName.equalsIgnoreCase("chrome"))
 			{
 	    	    System.setProperty("webdriver.chrome.driver", "E:\\SUDHA\\Selenium\\New folder\\chromedriver_win32\\chromedriver.exe");
 				driver = new ChromeDriver();
 			}
-		     
-		  //  driver = new FirefoxDriver();
-
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		    driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		    driver.get("https://www.orbitz.com/");
 			driver.manage().window().maximize();
 		
-		
-	
 	  //Capture screenshot
 	  Utilitymethods.captureScreenShot(driver,"HomePage");		  
 	  		  
